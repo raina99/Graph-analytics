@@ -34,7 +34,7 @@ This repository includes work on graph database such as neo4j to display excitin
  
  
  
- ![alt text](https://github.com/raina99/Graph-analytics/blob/master/medicine%20data%20graph.png)
+ ![alt text](https://github.com/raina99/Graph-analytics/blob/master/graph%20(3).png)
 
  
  
@@ -60,7 +60,7 @@ This repository includes work on graph database such as neo4j to display excitin
                                  
                                  
                                  
-                                  MEDICINE GRAPH FOR INDIA AND CANADA  
+                                    SAMPLE OF  MEDICINE GRAPH FOR INDIA AND CANADA  
  
  
  
@@ -69,9 +69,9 @@ This repository includes work on graph database such as neo4j to display excitin
  
  Dbpedia graph- Dbpedia forms the database of wikipedia about different search results and it shows results the different search terms and information in different forms of links namely 
  
- (1)Image links 
+ (1)Image node -  It shows   links  for images
  
- (2)Web links 
+ (2)Web  node -   It shows  links  for  articles
  
  
  
