@@ -33,6 +33,10 @@ This repository includes work on graph database such as neo4j to display excitin
  
  
  
+ ![alt text](https://github.com/raina99/Graph-analytics/blob/master/graph%20(3).png)
+
+ 
+ 
  
  Dbpedia graph- Dbpedia forms the database of wikipedia about different search results and it shows results the different search terms and information in different forms of links namely 
  
