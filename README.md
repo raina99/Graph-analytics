@@ -33,8 +33,37 @@ This repository includes work on graph database such as neo4j to display excitin
  
  
  
- ![alt text](https://github.com/raina99/Graph-analytics/blob/master/graph%20(3).png)
+ 
+ ![alt text](https://github.com/raina99/Graph-analytics/blob/master/medicine%20data%20graph.png)
 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                 
+                                 
+                                 
+                                 
+                                 
+                                 
+                                 
+                                 
+                                 
+                                 
+                                  MEDICINE GRAPH FOR INDIA AND CANADA  
+ 
+ 
+ 
  
  
  
@@ -49,3 +78,28 @@ This repository includes work on graph database such as neo4j to display excitin
  In this graph here query put is "India" and so graph formed tells all the data in dbpedia aboout india in the form of web links, image links and thus similarly on using any other search term we can take all dbpedia data about it and store in a format suichbas neo4j graphs so it can retreived easily and efficiently and establishing relationships between different nodes to make understanding of data even better.
  
  
+ 
+ 
+ 
+ ![alt text](https://github.com/raina99/Graph-analytics/blob/master/dbpedia%20graph.png)
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+                                  DBPEDIA GRAPH FOR INDIA 
