@@ -1,0 +1,22 @@
+# Cypher query for medicine graph
+ 
+ 
+ 
+  load csv with headers from "file:///p11.csv" as medicines
+  merge(M:Medicine{Medicine:medicines.Medicines})
+  merge(Co:Company{Company:medicines.Company})
+  merge(Con:Country{Country:medicines.Country})
+  merge(Com:Composition{Composition:medicines.Composition})
+  merge(M)-[p:Consists_of]->(Com)
+  merge(M)-[q:Manufactured_by]->(Co)
+  merge(M)-[r:Available_in]->(Con)
+  merge(Co)-[s:Located_in]->(Con)
+  
+  
+  #queries 
+# return medicines having same compositions
+match(n:Medicine)-[p:Consists_of]->(s:Composition) where s.Composition ='ACEBROPHYLLINE'return s,n
+
+# return composition of required medicine
+match(n:Medicine)-[p:Consists_of]->(s:Composition) where n.Medicine = 'ACAMPROL' return s,n
+
